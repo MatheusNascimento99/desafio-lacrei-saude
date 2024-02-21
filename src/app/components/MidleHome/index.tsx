@@ -7,8 +7,8 @@ const MidlleHome = () => {
     return (
         <div className='midlle_section'>
             <div className='midlle_section_texts'>
-                <h1>Boas vindas a Lacrei<br /> Saúde</h1>
-                <h2>Uma plataforma segura e acolhedora<br /> para comunidade LGBTQIAPN+</h2>
+                <h2>Boas vindas a Lacrei Saúde</h2>
+                <p>Uma plataforma segura e acolhedora para comunidade LGBTQIAPN+</p>
                 <div className='midlle_section_btn'>
                     <a href="usuario">
                         <button href="/usuario" id='btn_usuario'>Pessoa Usuária</button>
@@ -17,9 +17,9 @@ const MidlleHome = () => {
                         <button href="/profissional" id='btn_profissional'>Profissional</button>
                     </a>
                 </div>
-            </div >
+            </div>
             <div className='midlle_section_foto'>
-            <Image src={FotoHome} alt='Foto desenho médica'/>
+            <Image id='imgHome' src={FotoHome} alt='Foto desenho médica'/>
 
             </div>
         </div>
