@@ -1,16 +1,17 @@
+"use client";
+import "./style.css";
 import HeaderMenu from "../components/HeaderConponents/Header";
-import Footer from "../components/FooterConponents/Footer";
 import MidlleProfissional from "../components/Prof/index";
-import './style.css'
+import Footer from "../components/FooterConponents/Footer";
 
 const Profissional = () => {
-    return (
-        <div>
-            <HeaderMenu/>
-            <MidlleProfissional></MidlleProfissional>
-            <Footer></Footer>
-        </div>
-    )
-}
+  return (
+    <div>
+      <HeaderMenu />
+      <MidlleProfissional></MidlleProfissional>
+      <Footer></Footer>
+    </div>
+  );
+};
 
 export default Profissional;

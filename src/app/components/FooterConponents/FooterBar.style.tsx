@@ -116,7 +116,7 @@ export const ProfissionalLinkFooter = styled.a`
   }
 `;
 
-export const LinksSocialFooter = styled.a`
+export const LinksSocialFooter = styled.div`
   color: #018762;
   text-decoration: none;
   display: flex;

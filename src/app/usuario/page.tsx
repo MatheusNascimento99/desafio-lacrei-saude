@@ -1,7 +1,8 @@
-import Footer from "../components/FooterConponents/Footer";
+"use client";
+import "./style.css";
 import HeaderMenu from "../components/HeaderConponents/Header";
 import MidlleUsuario from "../components/User/index";
-import "./style.css";
+import Footer from "../components/FooterConponents/Footer";
 
 const Usuario = () => {
   return (
