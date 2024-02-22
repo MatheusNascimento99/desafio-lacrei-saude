@@ -2,7 +2,7 @@
 import "./style.css";
 import HeaderMenu from "../components/_HeaderConponents";
 import MidlleUsuario from "../components/User/index";
-import Footer from "../components/FooterConponents/_footer";
+import Footer from "../components/_FooterConponents/footer";
 
 const Usuario = () => {
   return (
