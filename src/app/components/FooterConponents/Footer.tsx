@@ -11,9 +11,9 @@ import {
   IconSocial
 } from "./footerBar.style";
 
-import FaceImg from "../../../../Assets/img/FacebookLogo.png";
-import InstaImg from "../../../../Assets/img/InstagramLogo.png";
-import LinkedinImg from "../../../../Assets/img/LinkedinLogo.png";
+import FaceImg from "../Assets/img/FacebookLogo.png";
+import InstaImg from "../Assets/img/InstagramLogo.png";
+import LinkedinImg from "../Assets/img/LinkedinLogo.png";
 
 
 
