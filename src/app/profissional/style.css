@@ -1,131 +1,16 @@
-#usuario {
-    font-family: Nunito;
-    font-size: 16px;
-    font-weight: 700;
-    letter-spacing: 0em;
-    color: #1F1F1F;
+.profPage{
+    color: #018762 !important;
 }
 
-#prof {
-    font-family: Nunito;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 22px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #018762;
+.homePage{
+    color: #1f1f1f !important;
 }
 
-#home {
-    font-family: Nunito;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 22px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #1F1F1F;
+.profPageFooter{
+    font-weight:700  !important;
 }
 
-
-#homeFooter {
-    font-family: Nunito;
-    font-weight: 400;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #1F1F1F;
-    font-size: 16px;
+.homePageFooter{
+    font-weight:400  !important;
 }
 
-
-
-#usuarioFooter {
-    font-family: Nunito;
-    font-size: 16px;
-    font-weight: 400;
-    letter-spacing: 0em;
-    color: #1F1F1F;
-    margin-left: 50px;
-}
-
-#profFooter {
-    font-family: Nunito;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 22px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #1F1F1F;
-    margin-left: 50px;
-}
-
-@media only screen and (min-width: 260px) and (max-width: 680px) {
-    /* Header */
-    .menu_bar_full {
-        height: 64px; /* Ajuste a altura conforme necessário */
-        display: flex;
-        flex-direction: column;
-    }
-
-    .menu_bar_mark {
-        margin-left: 32px; /* Ajuste a margem conforme necessário */
-    }
-
-    .menu_bar_mark h2 {
-        font-size: 24px; /* Ajuste o tamanho da fonte conforme necessário */
-    }
-
-    .menu_bar_redrection {
-        width: 100%; /* Ajuste a largura conforme necessário */
-        margin-left: 0; /* Remove a margem à esquerda */
-        justify-content: space-evenly; /* Ajusta o espaçamento entre os itens */
-    }
-
-    #home{
-        font-size: 18px; 
-    }
-    #usuario{
-        font-size: 18px; 
-    }
-    #prof {
-        font-size: 18px; 
-    }
-}
-
-
-/* Middle Page*/
-
-@media only screen and (min-width: 260px) and (max-width: 680px) {
-
-    .midlle_section {
-        flex-direction: column; 
-
-    }
-
-    .midlle_section_texts{
-        width: auto; /* Ajusta a largura para ocupar 100% da largura da tela */
-        margin-left: 0; 
-        text-align: center;
-        margin-left: 64px;
-    }
-    
-    
-    .vertical-line{
-        display: none;
-    }
-    .midlle_section_texts h1{
-        margin-left: 0; 
-        
-    }
-    .midlle_section_texts h2{
-        margin-left: 0; 
-        
-    }
-   
-    .midlle_section_foto {
-        margin-left: 0;
-            /* Remove a margem à esquerda */
-            margin-top: 32px;
-            /* Ajusta a margem superior */
-            margin-left: 26px;
-    }
-}

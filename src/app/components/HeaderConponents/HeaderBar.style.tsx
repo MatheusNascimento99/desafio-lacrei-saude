@@ -1,5 +1,7 @@
 "use client";
 import styled from "styled-components";
+import { useRouter } from "next/router";
+
 
 //!HEADER DIV
 export const Header = styled.div`

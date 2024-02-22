@@ -22,9 +22,9 @@ export default function FooterFull() {
     <main>
       <Footer>
         <RedirectionLinksFooter>
-          <HomeLinkFooter href="/">Home</HomeLinkFooter>
-          <UsuarioLinkFooter href="usuario">Pessoa Usuária</UsuarioLinkFooter>
-          <ProfissionalLinkFooter href="profissional">Profissional</ProfissionalLinkFooter>
+          <HomeLinkFooter className='homePageFooter'  href="/">Home</HomeLinkFooter>
+          <UsuarioLinkFooter className='userPageFooter' href="usuario">Pessoa Usuária</UsuarioLinkFooter>
+          <ProfissionalLinkFooter className='profPageFooter' href="profissional">Profissional</ProfissionalLinkFooter>
         </RedirectionLinksFooter>
         <LinksSocialFooter>
           <IconSocial target='_blank' href="https://www.facebook.com/lacrei.saude"><Image src={InstaImg} alt='logo FaceBook'/> </IconSocial>

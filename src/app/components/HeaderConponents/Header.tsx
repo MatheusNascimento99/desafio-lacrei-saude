@@ -1,4 +1,5 @@
-
+import { useRouter } from 'next/router';
+import Link from 'next/link'
 
 import {
   Header,
@@ -10,14 +11,16 @@ import {
 } from "./HeaderBar.style";
 
 export default function HeaderFull() {
-  return (
+  
+  
+  return (  
     <main>
       <Header>
         <Logo href="/">Lacrei</Logo>
         <RedirectionLinks>
-          <HomeLink href="/">Home</HomeLink>
-          <UsuarioLink href="usuario">Pessoa Usuária</UsuarioLink>
-          <ProfissionalLink href="profissional">Profissional</ProfissionalLink>
+          <HomeLink className='homePage' href="/">Home</HomeLink>
+          <UsuarioLink className='userPage' href="usuario">Pessoa Usuária</UsuarioLink>
+          <ProfissionalLink className='profPage'  href="profissional">Profissional</ProfissionalLink>
         </RedirectionLinks>
       </Header>
     </main>
