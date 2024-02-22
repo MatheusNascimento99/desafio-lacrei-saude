@@ -8,7 +8,7 @@ import {
   HomeLink,
   UsuarioLink,
   ProfissionalLink,
-} from "./headerBar.style";
+} from "./layout";
 
 export default function HeaderFull() {
   
