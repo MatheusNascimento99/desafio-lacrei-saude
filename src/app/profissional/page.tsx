@@ -1,8 +1,8 @@
 "use client";
 import "./style.css";
-import HeaderMenu from "../components/HeaderConponents/Header";
+import HeaderMenu from "../components/HeaderConponents/header";
 import MidlleProfissional from "../components/Prof/index";
-import Footer from "../components/FooterConponents/Footer";
+import Footer from "../components/FooterConponents/footer";
 
 const Profissional = () => {
   return (

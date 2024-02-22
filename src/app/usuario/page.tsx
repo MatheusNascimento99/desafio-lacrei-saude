@@ -1,8 +1,8 @@
 "use client";
 import "./style.css";
-import HeaderMenu from "../components/HeaderConponents/Header";
+import HeaderMenu from "../components/HeaderConponents/header";
 import MidlleUsuario from "../components/User/index";
-import Footer from "../components/FooterConponents/Footer";
+import Footer from "../components/FooterConponents/footer";
 
 const Usuario = () => {
   return (
