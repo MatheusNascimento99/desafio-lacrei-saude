@@ -27,8 +27,8 @@ export default function FooterFull() {
           <ProfissionalLinkFooter href="profissional">Profissional</ProfissionalLinkFooter>
         </RedirectionLinksFooter>
         <LinksSocialFooter>
-          <IconSocial target='_blank' href="https://www.facebook.com/lacrei.saude"><Image src={FaceImg} alt='logo FaceBook'/> </IconSocial>
-          <IconSocial target='_blank' href="https://www.instagram.com/lacrei.saude"><Image src={InstaImg} alt='logo Instagran'/> </IconSocial>
+          <IconSocial target='_blank' href="https://www.facebook.com/lacrei.saude"><Image src={InstaImg} alt='logo FaceBook'/> </IconSocial>
+          <IconSocial target='_blank' href="https://www.instagram.com/lacrei.saude"><Image src={FaceImg} alt='logo Instagran'/> </IconSocial>
           <IconSocial target='_blank' href="https://www.linkedin.com/company/lacrei-saude/"><Image src={LinkedinImg} alt='logo Linkedin'/> </IconSocial>
          
         </LinksSocialFooter>

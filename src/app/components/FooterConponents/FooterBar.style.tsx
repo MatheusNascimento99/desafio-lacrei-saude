@@ -3,35 +3,44 @@ import styled from "styled-components";
 
 //!HEADER DIV
 export const Footer = styled.div`
-  background-color: #FFFFFF;
-  height: 151px;
-InstaImg
+  background-color: #ffffff;
+  height: 10rem;
+  border-top: 1px solid rgb(176, 224, 211);
   display: flex;
   flex-direction: column;
-
-  padding: 0 20px;
+  margin: 0px 4rem;
+  padding: 2rem 0px 0.5rem;
   box-sizing: border-box;
-  
+  justify-content: space-between;
+
   flex-wrap: wrap;
+
+  @media only screen and (max-width: 1040px) {
+    margin: 0px 2rem;
+  }
 
   @media only screen and (max-width: 520px) {
     height: auto;
     flex-direction: column;
     transition: height 2s, flex-direction 2s;
+    margin: 0px 1rem;
+    padding: 2rem 0px 0.5rem;
+    padding-top: 1rem;
+
+
   }
 `;
 
 //*DIV DOS LNKS
 export const RedirectionLinksFooter = styled.div`
   display: flex;
-  gap: 20px;
-  margin-left: 24px;
-  padding-top:23px;
+  gap: 2.5rem;
+
 
   @media only screen and (max-width: 520px) {
     flex-direction: column;
     font-size: 0.9rem;
-    gap:5px;
+    gap: 5px;
     margin-left: 0px;
   }
 `;
@@ -44,18 +53,20 @@ export const HomeLinkFooter = styled.a`
   font-weight: 700;
   letter-spacing: 0em;
   text-align: left;
-  color: #1F1F1F;
+  color: #1f1f1f;
   font-size: 16px;
   max-width: 100%;
 
   @media only screen and (max-width: 520px) {
     font-size: 0.9rem;
     margin-left: 0px;
+    font-size: 0.875rem;
   }
 
   &:hover {
     cursor: pointer;
-    opacity: 0.7;ity: 0.5;
+    opacity: 0.7;
+    ity: 0.5;
   }
 `;
 
@@ -70,11 +81,14 @@ export const UsuarioLinkFooter = styled.a`
   @media only screen and (max-width: 520px) {
     font-size: 0.9rem;
     margin-left: 0px;
+    font-size: 0.875rem;
+
   }
 
   &:hover {
     cursor: pointer;
-    opacity: 0.7;ity: 0.5;
+    opacity: 0.7;
+    ity: 0.5;
   }
 `;
 
@@ -88,11 +102,38 @@ export const ProfissionalLinkFooter = styled.a`
   color: #1f1f1f;
   text-decoration: none;
   max-width: 100%;
-  
+
+  @media only screen and (max-width: 520px) {
+    font-size: 0.9rem;
+
+  }
 
   &:hover {
     cursor: pointer;
-    opacity: 0.7;ity: 0.5;
+    opacity: 0.7;
+    ity: 0.5;
+  }
+`;
+
+export const LinksSocialFooter = styled.a`
+  color: #018762;
+  text-decoration: none;
+  display: flex;
+  gap: 32px;
+  @media only screen and (max-width: 520px) {
+    font-size: 0.9rem;
+    margin-left: 0px;
+    margin: 10px 0 10px 0;
+
+  }
+`;
+
+export const IconSocial = styled.a`
+  text-decoration: none;
+
+  &:hover {
+    cursor: pointer;
+    opacity: 0.7;
   }
 `;
 
@@ -103,38 +144,8 @@ export const Paragrafo = styled.p`
   font-weight: 400;
   line-height: 16px;
   letter-spacing: 0em;
-  margin-left: 24px;
-  margin-top: 10px;
 
   @media only screen and (max-width: 520px) {
-    font-size: 0.9rem;
-    margin-left: 0px;
+    font-size: 0.75rem;
   }
-
 `;
-
-export const LinksSocialFooter = styled.a`
-  color: #018762;
-  margin-top: 20px;
-  text-decoration: none;
-  display: flex;
-  gap: 32px;
-  margin-left: 24px;
-  @media only screen and (max-width: 520px) {
-    font-size: 0.9rem;
-    margin-left: 0px;
-  }
-
-  
-`;
-
-
-export const IconSocial = styled.a`
-
-text-decoration: none;
-  
-  &:hover {
-    cursor: pointer;
-    opacity: 0.7;
-  }
-  `;

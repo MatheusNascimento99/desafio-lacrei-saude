@@ -46,6 +46,7 @@ body {
     padding-top: 3rem;
     align-items: center;
     box-sizing: border-box;
+
 }
 
 .midlle_section_btn a {
@@ -110,6 +111,7 @@ body {
 
     .midlle_section_texts{
         max-width: 100%;
+
     }
 
     .midlle_section_texts h2 {
@@ -120,8 +122,6 @@ body {
         font-size: 1rem;
         margin-top: 1rem;
     }
-
-
 
 }
 

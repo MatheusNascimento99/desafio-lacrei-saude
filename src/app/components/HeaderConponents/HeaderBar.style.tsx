@@ -8,14 +8,17 @@ export const Header = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 20px;
   box-sizing: border-box;
   flex-wrap: wrap;
+  padding: 0.5rem 4rem;
+  
 
   @media only screen and (max-width: 520px) {
     height: auto;
     flex-direction: column;
     transition: height 2s, flex-direction 2s;
+  padding: 0.5rem 1rem;
+
   }
 `;
 
@@ -23,18 +26,13 @@ export const Header = styled.div`
 export const Logo = styled.a`
   width: auto;
   height: auto;
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: 700;
   font-family: Nunito;
-  margin-left: 44px;
-  margin-top: 8px;
   color: #018762;
   text-decoration: none;
 
-  @media only screen and (max-width: 1040px) {
-    margin-left: 10px;
-  }
-
+  
   &:hover {
     cursor: pointer;
   }
@@ -43,12 +41,14 @@ export const Logo = styled.a`
 //*DIV DOS LNKS
 export const RedirectionLinks = styled.div`
   display: flex;
-  gap: 20px;
-  margin-right: 5rem;
-
+  gap: 2.5rem;
+  box-sizing: border-box;
+  font-weight: bold;
+  justify-content: space-between;
+  
   @media only screen and (max-width: 520px) {
-    margin-right: 0px;
     font-size: 0.9rem;
+    gap: 1rem;
   }
 `;
 
@@ -66,6 +66,8 @@ export const HomeLink = styled.a`
 
   @media only screen and (max-width: 520px) {
     font-size: 0.9rem;
+  font-weight: bold;
+
   }
 
   &:hover {
@@ -84,6 +86,8 @@ export const UsuarioLink = styled.a`
   max-width: 100%;
   @media only screen and (max-width: 520px) {
     font-size: 0.9rem;
+  font-weight: bold;
+
   }
 
   &:hover {
@@ -104,6 +108,8 @@ export const ProfissionalLink = styled.a`
   max-width: 100%;
   @media only screen and (max-width: 520px) {
     font-size: 0.9rem;
+  font-weight: bold;
+
   }
 
   &:hover {
