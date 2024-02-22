@@ -1,6 +1,6 @@
 "use client";
 import "./style.css";
-import HeaderMenu from "../components/HeaderConponents/header";
+import HeaderMenu from "../components/HeaderConponents";
 import MidlleProfissional from "../components/Prof/index";
 import Footer from "../components/FooterConponents/footer";
 

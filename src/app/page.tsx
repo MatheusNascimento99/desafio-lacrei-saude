@@ -1,5 +1,5 @@
 'use client'
-import HeaderFull from "./components/HeaderConponents/header";
+import HeaderFull from "./components/HeaderConponents";
 import MidlleHome from "./components/MidleHome/index";
 import FooterFull from "./components/FooterConponents/footer";
 
