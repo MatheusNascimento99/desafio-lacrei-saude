@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 
-import FotoProf from "../../../../Assets/img/ProfImg.svg";
+import FotoProf from "../Assets/img/ProfImg.svg";
 import "./style.css";
 
 const MidlleProfissional = () => {

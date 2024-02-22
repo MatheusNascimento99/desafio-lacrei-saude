@@ -1,5 +1,5 @@
 import React from 'react';
-import FotoUsusario from '../../../../Assets/img/UsuarioImg.svg';
+import FotoUsusario from '../Assets/img/UsuarioImg.svg';
 import Image from 'next/image'
 import './style.css';
 

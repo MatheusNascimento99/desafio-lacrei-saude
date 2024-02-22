@@ -1,6 +1,6 @@
 import "./style.css";
 import Image from "next/image";
-import FotoHome from "../../../../Assets/img/HomeImg.svg";
+import FotoHome from "../Assets/img/HomeImg.svg";
 
 const MidlleHome = () => {
   return (
