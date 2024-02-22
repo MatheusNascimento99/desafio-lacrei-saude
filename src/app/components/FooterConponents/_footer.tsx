@@ -9,7 +9,7 @@ import {
   Paragrafo,
   LinksSocialFooter,
   IconSocial
-} from "./footerBar.style";
+} from "./f_ooterBar.style";
 
 import FaceImg from "../Assets/img/FacebookLogo.png";
 import InstaImg from "../Assets/img/InstagramLogo.png";
