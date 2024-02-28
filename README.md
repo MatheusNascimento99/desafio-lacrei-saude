@@ -1,26 +1,43 @@
 # Fala pessoal!
 Este foi um projeto que realizei como teste para a Lacrei Saúde, visando oferecer meu trabalho voluntário a eles, uma instituição incrível que busca melhorar o mundo ao aprimorar a saúde das pessoas LGBTQIAPN+. Neste desafio, tive que criar uma página responsiva com base nos layouts e cores fornecidos por eles. Foi um pouco desafiador em relação à responsividade, mas foi muito gratificante poder construir a página e enfrentar esse desafio. É possível navegar entre as páginas e conferir o trabalho no link abaixo:
 </br>
-https://projeto-wine-nu.vercel.app/</br>
+https://desafio-lacrei-saude-tau.vercel.app/  </br>
 ## Segue as telas:
 
 # Home
+![Home](https://github.com/MatheusNascimento99/desafio-lacrei-saude/assets/139829100/d485698d-f5f7-4e85-a00e-dda556ee49d7)
 
 </br>
+
 # Pessoa Usuária
+![user](https://github.com/MatheusNascimento99/desafio-lacrei-saude/assets/139829100/c48cd479-3136-4ca1-9fda-781eeb6e5d8f)
 
 </br>
+
 # Profissional
+![prof](https://github.com/MatheusNascimento99/desafio-lacrei-saude/assets/139829100/63ea284e-c66c-4ad2-b8ac-fe0014cfcc34)
 
 </br>
 
-## Lyout Responsivo
+## Layout Responsivo
 
 </br>
 
-</br>
+Samsung Galaxy S8
+
+![Sansung Galaxy S8](https://github.com/MatheusNascimento99/desafio-lacrei-saude/assets/139829100/f124cb09-fc57-4d6e-8d55-0e987f2adad4)
 
 </br>
+
+Iphone 12 Pro
+
+![744](https://github.com/MatheusNascimento99/desafio-lacrei-saude/assets/139829100/057ae44c-730b-4b27-adfd-95afbbb8e0bb)
+
+</br>
+
+Samsung Fold
+
+![Gçaxy Fold](https://github.com/MatheusNascimento99/desafio-lacrei-saude/assets/139829100/bfbe499f-77bc-4b6f-81be-e9d9459a053e)
 
 Segue configuração padrão do projeto baseado em Next:  </br>
 
